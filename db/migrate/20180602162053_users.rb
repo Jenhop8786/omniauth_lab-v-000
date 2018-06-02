@@ -1,5 +1,4 @@
 class Users < ActiveRecord::Migration
-  def change
     def change
       create_table :users do |t|
         t.string :name
@@ -8,6 +7,6 @@ class Users < ActiveRecord::Migration
         t.string :uid
 
         t.timestamps null: false
-      end 
+      end
   end
 end
